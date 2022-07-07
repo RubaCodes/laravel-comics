@@ -17,3 +17,33 @@
   --color-secondary: #5b5d6f;
 }
 
+.footer__top {
+  padding: 40px 0;
+  background-color: var(--color-primary);
+}
+
+.footer__top ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer__top .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer__top .card a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer__top .card img {
+  width: 3rem;
+}
+

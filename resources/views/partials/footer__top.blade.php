@@ -46,34 +46,3 @@
       </ul>
     </div>
   </div>
-
-
-
-<style lang="scss" scoped>
-.footer__top {
-  padding: 40px 0;
-  background-color: var(--color-primary);
-
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-  }
-  .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    a {
-      font-size: 0.8rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: white;
-    }
-    img {
-      width: 3rem;
-    }
-  }
-}
-</style>
