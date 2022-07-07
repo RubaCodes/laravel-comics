@@ -4,9 +4,7 @@
 @endsection
 @section('main-content')
     <main>
-            @include('partials.hero')
-            @include('partials.shop_library')  
+        @include('partials.hero')
+        @include('partials.shop_library')
     </main>
 @endsection
-
-</html>
