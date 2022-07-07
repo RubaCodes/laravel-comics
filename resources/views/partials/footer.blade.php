@@ -1,5 +1,5 @@
 <footer>
-    @extends('partials.footer__top')
-    @extends('partials.footer__mid')
-    @extends('partials.footer__bot')
+    @include('partials.footer__top')
+    @include('partials.footer__mid')
+    @include('partials.footer__bot')
 </footer>

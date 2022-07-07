@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: var(--color-secondary);
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 50px 10px;
+        &.active {
+            color: var(--color-primary);
+            border-bottom: 4px solid var(--color-primary);
+        }
+    }
+    img {
+        width: 75%;
+    }
+}
