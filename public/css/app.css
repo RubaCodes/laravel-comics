@@ -177,10 +177,15 @@ header img {
   text-transform: uppercase;
 }
 
+.shop-library {
+  background: #1c1c1c;
+}
+
 .card img {
   width: 100%;
 }
 .card h3 {
+  color: white;
   padding-top: 0.7rem;
   text-transform: uppercase;
   font-size: 0.8rem;
