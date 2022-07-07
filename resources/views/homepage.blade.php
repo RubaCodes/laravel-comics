@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    @extends('partials.footer__top')
+    @extends('partials.footer')
 </body>
 </html>

@@ -1,0 +1,27 @@
+.footer__bot {
+    background-color: #333333;
+    padding: 40px 0;
+    .container-lg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__bot--right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: bold;
+        color: #0078cf;
+        text-transform: uppercase;
+    }
+    .footer__bot--left {
+        a {
+            color: white;
+            padding: 8px 10px;
+            border: 2px solid var(--color-primary);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}

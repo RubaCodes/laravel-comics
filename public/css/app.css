@@ -21,29 +21,87 @@
   padding: 40px 0;
   background-color: var(--color-primary);
 }
-
 .footer__top ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style: none;
 }
-
 .footer__top .card {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-
 .footer__top .card a {
   font-size: 0.8rem;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
-
 .footer__top .card img {
   width: 3rem;
 }
 
+.footer__mid {
+  background-image: url("../../../public/images/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.footer__mid .container-lg {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__mid .footer__mid--main {
+  flex-grow: 1;
+  padding: 50px 0;
+  background-image: url("../../../public/images/dc-logo-bg.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 2rem;
+}
+.footer__mid .footer__mid--main h3 {
+  color: white;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+.footer__mid .footer__mid--main ul {
+  list-style: none;
+}
+.footer__mid .footer__mid--main ul a {
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.footer__bot {
+  background-color: #333333;
+  padding: 40px 0;
+}
+.footer__bot .container-lg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bot .footer__bot--right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  color: #0078cf;
+  text-transform: uppercase;
+}
+.footer__bot .footer__bot--left a {
+  color: white;
+  padding: 8px 10px;
+  border: 2px solid var(--color-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
