@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-lg {
+  width: 75rem;
+  margin: auto;
+}
+
+:root {
+  /*    <-- colori --> */
+  --color-primary: #0086fa;
+  --color-secondary: #5b5d6f;
+}
+
