@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('partials.header')
+    @include('partials.hero')
     @include('partials.footer')
 </body>
 </html>

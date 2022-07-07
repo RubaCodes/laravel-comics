@@ -129,3 +129,13 @@ header a.active {
 header img {
   width: 75%;
 }
+
+.hero img {
+  display: block;
+  height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
