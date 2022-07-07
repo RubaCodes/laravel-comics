@@ -6,7 +6,7 @@
         @foreach ($comics as $comic)
         <li>
           <div class="card">
-            <img src="{{$comic['thumb']}}" alt="@yield('titolo_comic')" />
+            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
             <h3> {{$comic['title']}} </h3>   
           </div>
         </li>      
