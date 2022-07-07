@@ -1,4 +1,4 @@
-@extends('partials.card_product')
+
 <div class="shop-library">
   <div class="container-lg">
     <h2>current series</h2>  
@@ -12,7 +12,6 @@
         </li>      
         @endforeach
     </ul>
-
     <a href="#">load more</a>
   </div>
 </div>
