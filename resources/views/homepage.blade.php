@@ -10,6 +10,7 @@
 <body>
     @include('partials.header')
     @include('partials.hero')
+    @include('partials.shop_library')
     @include('partials.footer')
 </body>
 </html>

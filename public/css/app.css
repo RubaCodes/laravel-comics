@@ -139,3 +139,40 @@ header img {
   -o-object-position: center top;
      object-position: center top;
 }
+
+.shop-library .container-lg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.shop-library .container-lg ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.shop-library .container-lg li {
+  margin: 1rem;
+  width: calc(16.6666666667% - 2rem);
+}
+.shop-library .container-lg a {
+  margin-top: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: var(--color-primary);
+  padding: 1rem 4rem;
+}
+.shop-library .container-lg h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--color-primary);
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}

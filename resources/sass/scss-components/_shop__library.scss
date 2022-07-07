@@ -1,0 +1,36 @@
+.shop-library .container-lg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    li {
+        margin: 1rem;
+        width: calc(100% / 6 - 2rem);
+    }
+    a {
+        margin-top: 2rem;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        display: inline-block;
+        background-color: var(--color-primary);
+        padding: 1rem 4rem;
+    }
+    h2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+        background-color: var(--color-primary);
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+    }
+}
