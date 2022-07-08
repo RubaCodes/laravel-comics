@@ -38,6 +38,48 @@
         }
     }
     .comic-info__bottom{
+        border-top: 1px solid gray;
+        font-family: sans-serif;
+        padding-bottom: 120px;
+        .boh{
+            display: flex;
+            gap: 40px;
+            & > *{
+                width: 50%;
+            }
+        }
+        h3{
+            font-size: 20px;
+            padding: 40px 0;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            border-top: 1px solid lightgray;
+            &:last-child{
+                border-bottom: 1px solid lightgray;
+            }
+            display: flex;
+            padding: 20px 0;
+            span{
+                width: 30%;
+            }
+            p{
+                color: var(--color-primary);
+                width: 70%;
+            }
+            
+
+        }
+        .specs{
+                li:first-child {
+                    span:last-child{
+                        color: var(--color-primary);
+                    }
+                }
+            }
+
 
     }
     
