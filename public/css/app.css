@@ -255,3 +255,48 @@ header .header__bot input::placeholder {
   font-size: 0.8rem;
 }
 
+.hero-product .comic-info__top {
+  margin: 60px auto;
+  font-family: sans-serif;
+}
+
+.hero-product .comic-info__top h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #003f5e;
+}
+
+.hero-product .comic-info__top .price {
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-product .comic-info__top .price__left {
+  padding: 20px 10px;
+  color: #bafd93;
+}
+
+.hero-product .comic-info__top .price__left span {
+  color: white;
+}
+
+.hero-product .comic-info__top .price__right {
+  padding: 20px 10px;
+  border-left: 1px solid black;
+  background: transparent;
+}
+
+.hero-product .comic-info__top .price__right select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.hero-product .comic-info__top p {
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+

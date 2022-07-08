@@ -1,0 +1,44 @@
+.hero-product{
+    .comic-info__top{
+        margin: 60px auto;
+        font-family: sans-serif;
+        h2{
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            color: #003f5e;
+        }
+        .price{
+            background-color: #55ba59;
+            display: flex;
+            justify-content: space-between;
+
+            &__left{
+                        padding: 20px 10px;
+                color: #bafd93;
+                span{
+                    color: white;
+                }
+            }
+            &__right{
+                        padding: 20px 10px;
+                border-left: 1px solid black;
+                background: transparent;
+                select{
+                    background-color: transparent;
+                    color: white;
+                    border: none;
+                    font-weight: bold;
+                }
+            }
+        }
+        p{
+            margin-top: 20px;
+            line-height: 1.5rem;
+        }
+    }
+    .comic-info__bottom{
+
+    }
+    
+}
