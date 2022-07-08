@@ -13,6 +13,10 @@
     li {
         margin: 1rem;
         width: calc(100% / 6 - 2rem);
+        a{
+            background-color:transparent;
+            padding: 0;
+        }
     }
     a {
         margin-top: 2rem;

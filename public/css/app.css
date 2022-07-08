@@ -213,6 +213,11 @@ header .header__bot input::placeholder {
   width: calc(16.6666666667% - 2rem);
 }
 
+.shop-library .container-lg li a {
+  background-color: transparent;
+  padding: 0;
+}
+
 .shop-library .container-lg a {
   margin-top: 2rem;
   display: inline-block;

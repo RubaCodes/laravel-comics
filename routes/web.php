@@ -21,6 +21,10 @@ Route::get('/', function () {
 Route::get('comic/{id}', function ($id) {
     //prendo comics
     $comics = config('comics');
+
+    if ($id >= count($comics)) {
+        abort('404');
+    }
     //seleziono il comic specifico
     $prodotto = $comics[$id];
     // ritorno il template comic e passo il comic
