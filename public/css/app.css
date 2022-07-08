@@ -300,3 +300,50 @@ header .header__bot input::placeholder {
   line-height: 1.5rem;
 }
 
+.hero-product .comic-info__bottom {
+  border-top: 1px solid gray;
+  font-family: sans-serif;
+  padding-bottom: 120px;
+}
+
+.hero-product .comic-info__bottom .boh {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-product .comic-info__bottom .boh > * {
+  width: 50%;
+}
+
+.hero-product .comic-info__bottom h3 {
+  font-size: 20px;
+  padding: 40px 0;
+}
+
+.hero-product .comic-info__bottom ul {
+  list-style: none;
+}
+
+.hero-product .comic-info__bottom li {
+  border-top: 1px solid lightgray;
+  display: flex;
+  padding: 20px 0;
+}
+
+.hero-product .comic-info__bottom li:last-child {
+  border-bottom: 1px solid lightgray;
+}
+
+.hero-product .comic-info__bottom li span {
+  width: 30%;
+}
+
+.hero-product .comic-info__bottom li p {
+  color: var(--color-primary);
+  width: 70%;
+}
+
+.hero-product .comic-info__bottom .specs li:first-child span:last-child {
+  color: var(--color-primary);
+}
+
