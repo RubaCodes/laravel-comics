@@ -5,17 +5,12 @@
 
             @foreach ($comics as $comic)
                 <li>
-                    <div class="card">
-                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
-                        <h3> {{ $comic['title'] }} </h3>
-                    </div>
-                    {{-- @extends('partials.card_product')
-                    @section('thumbnail')
-                        {{ $comic['thumb'] }}
-                    @endsection
-                    @section('titolo_comic')
-                        {{ $comic['title'] }}
-                    @endsection --}}
+                    <a>
+                        <div class="card">
+                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
+                            <h3> {{ $comic['title'] }} </h3>
+                        </div>
+                    </a>
                 </li>
             @endforeach
         </ul>
