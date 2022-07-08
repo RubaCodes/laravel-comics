@@ -3,9 +3,9 @@
         <h2>current series</h2>
         <ul>
 
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <li>
-                    <a>
+                    <a href="{{ route('comic', ['id' => $index]) }}">
                         <div class="card">
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
                             <h3> {{ $comic['title'] }} </h3>

@@ -25,6 +25,4 @@ Route::get('comic/{id}', function ($id) {
     $prodotto = $comics[$id];
     // ritorno il template comic e passo il comic
     return view('comic', compact('prodotto'));
-});
-
-//->name('profile');
+})->name('comic');
